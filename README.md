@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Parent Ease 👨‍👩‍👧‍👦
 
-# Run and deploy your AI Studio app
+Parent Ease is a simple AI-powered parenting support web application designed to help parents organize daily routines, access parenting tools, and get personalized guidance.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+* Smart parenting dashboard
+* AI-powered parenting assistance
+* Scheduler for daily routines
+* Parenting toolkit resources
+* Multiple parenting style selection
+* Clean and responsive UI
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+* React
+* TypeScript
+* Vite
+* CSS / Tailwind (if used)
+* Gemini API (AI assistance)
 
+## 📦 Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/Jagruthi1706/Parent_ease.git
+cd Parent_ease
+npm install
+```
+
+## ▶️ Run the Project
+
+```bash
+npm run dev
+```
+
+Then open:
+
+```
+http://localhost:3000
+```
+
+## 📁 Project Structure
+
+```
+parent-ease/
+│
+├── src/
+│   ├── components/
+│   ├── App.tsx
+│   ├── types.ts
+│   └── geminiService.ts
+│
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+## 🎯 Purpose
+
+Parent Ease aims to simplify parenting by providing tools, scheduling support, and AI-powered insights in one platform.
+
+## 👩‍💻 Author
+
+Alla Jagruthi
+
+---
+
+⭐ If you like this project, consider giving it a star!
