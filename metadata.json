@@ -1,0 +1,8 @@
+
+{
+  "name": "Parent Ease",
+  "description": "An AI-powered, all-in-one parenting support application designed to simplify the complexities of modern family life, featuring smart scheduling, developmental tracking, safety monitoring, and emotional support.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
